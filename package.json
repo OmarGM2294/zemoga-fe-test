@@ -8,19 +8,17 @@
     "start": "next start",
     "test": "jest --watch",
     "lint": "eslint ./ --ext js",
-    "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write ."
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run type-check"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.@(js|jsx)": [
-      "npm lint",
-      "npm format"
+    "src/**/*.js": [
+      "npm run lint",
+      "npm run format"
     ]
   },
   "jest": {
