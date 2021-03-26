@@ -1,5 +1,6 @@
 import Header from '../src/components/header'
 import Banner from '../src/components/banner'
+import BottomBanner from '../src/components/bottom-banner'
 import Footer from '../src/components/footer'
 
 import styles from '../styles/views/Home.module.scss'
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <div className={styles.container}>
         <Banner />
+        <BottomBanner />
         <Footer />
       </div>
     </>

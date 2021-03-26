@@ -1,0 +1,79 @@
+@import '../common/colors.scss';
+@import '../common/breakpoints.scss';
+
+.banner {
+  color: $color-dark-grey;
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0 18px;
+  padding: 12px 36px;
+  position: relative;
+
+  @include md {
+    align-items: center;
+    flex-direction: row;
+    margin: 28px 0;
+    padding: 28px;
+  }
+
+  @include lg {
+    margin: 36px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0 0 12px;
+    line-height: 29px;
+    text-align: center;
+
+    @include md {
+      flex-basis: 70%;
+      font-size: 21px;
+      margin: 0;
+      line-height: 25px;
+      text-align: left;
+    }
+
+    @include lg {
+      flex-basis: 60%;
+      font-size: 27px;
+      line-height: 32px;
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: 2px solid $color-grey;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 13px;
+    width: 100%;
+
+    @include md {
+      flex-basis: 30%;
+      font-size: 21px;
+      line-height: 25px;
+    }
+
+    @include lg {
+      flex-basis: 40%;
+      font-size: 27px;
+      line-height: 32px;
+    }
+  }
+}
+
+.background {
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.image {
+  object-fit: cover;
+}

@@ -5,6 +5,14 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 0 12px;
   max-width: $screen-lg-min;
+
+  @include md {
+    margin: 0 21px;
+  }
+
+  @include lg {
+    margin: 0 auto;
+  }
 }
