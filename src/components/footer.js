@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
+import React from 'react'
+import Image from 'next/image'
 
-import styles from '../../styles/components/Footer.module.scss';
+import styles from '../../styles/components/Footer.module.scss'
 
 const Footer = () => {
   return (
@@ -24,18 +24,12 @@ const Footer = () => {
         <ul>
           <li>
             <a href="#">
-              <Image
-                layout="fill"
-                src="/images/facebook.svg"
-              />
+              <Image layout="fill" src="/images/facebook.svg" />
             </a>
           </li>
           <li>
-            <a href="#">              
-              <Image
-                layout="fill"
-                src="/images/twitter.svg"
-              />
+            <a href="#">
+              <Image layout="fill" src="/images/twitter.svg" />
             </a>
           </li>
         </ul>
@@ -44,4 +38,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Footer

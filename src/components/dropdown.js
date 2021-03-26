@@ -1,22 +1,20 @@
-import React from 'react';
+import React from 'react'
 
-import styles from '../../styles/components/Dropdown.module.scss';
+import styles from '../../styles/components/Dropdown.module.scss'
 
 const Dropdown = (props) => {
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = React.useState(false)
 
   return (
     <div className={styles.dropdown}>
-      <div onClick={() => setShow(!show)}>
-        { props.event }
-      </div>
-      { show ?
+      <div onClick={() => setShow(!show)}>{props.event}</div>
+      {show ? (
         <div className={`${styles.content} ${props.customStyle}`}>
-          { props.children }
+          {props.children}
         </div>
-      : null }
+      ) : null}
     </div>
   )
 }
 
-export default Dropdown;
+export default Dropdown

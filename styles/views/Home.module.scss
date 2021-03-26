@@ -1,6 +1,10 @@
+@import '../common/breakpoints.scss';
+
 .container {
   min-height: 100vh;
   padding: 0;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  max-width: $screen-lg-min;
 }

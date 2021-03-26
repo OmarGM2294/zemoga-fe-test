@@ -1,17 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import { create } from 'react-test-renderer';
+import { create } from 'react-test-renderer'
 
-import Footer from '../components/footer';
+import Footer from '../components/footer'
 
 describe('Footer', () => {
   it('Should match snapshot', () => {
-    const component = create(
-      <Footer />
-    );
+    const component = create(<Footer />)
 
-    const tree = component.toJSON();
+    const tree = component.toJSON()
 
-    expect(tree).toMatchSnapshot();
-  });
-});
+    expect(tree).toMatchSnapshot()
+  })
+})
