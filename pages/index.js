@@ -1,8 +1,8 @@
-import Header from '../src/components/header';
-import Banner from '../src/components/banner';
-import Footer from '../src/components/footer';
+import Header from '../src/components/header'
+import Banner from '../src/components/banner'
+import Footer from '../src/components/footer'
 
-import styles from '../styles/views/Home.module.scss';
+import styles from '../styles/views/Home.module.scss'
 
 export default function Home() {
   return (

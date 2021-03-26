@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
+import React from 'react'
+import Image from 'next/image'
 
-import styles from '../../styles/components/Banner.module.scss';
+import styles from '../../styles/components/Banner.module.scss'
 
 const Banner = () => {
   return (
@@ -12,17 +12,16 @@ const Banner = () => {
       </div>
       <div className={styles.right}>
         <p>
-          Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone can speak out and speak freely. It’s easy: You share your opinion, we analyze and put the data in a public report.
+          Rule of Thumb is a crowd sourced court of public opinion where anyone
+          and everyone can speak out and speak freely. It’s easy: You share your
+          opinion, we analyze and put the data in a public report.
         </p>
       </div>
       <button className={styles.button} aria-label="close">
-        <Image
-          layout="fill"
-          src="/images/close.svg"
-        />
+        <Image layout="fill" src="/images/close.svg" />
       </button>
     </aside>
   )
 }
 
-export default Banner;
+export default Banner

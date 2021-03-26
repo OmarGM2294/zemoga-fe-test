@@ -1,17 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import { create } from 'react-test-renderer';
+import { create } from 'react-test-renderer'
 
-import Banner from '../components/banner';
+import Banner from '../components/banner'
 
 describe('Banner', () => {
-  it('Should match snapshot', () => {
-    const component = create(
-      <Banner />
-    );
+  it('Should match snapshot (it renders correctly)', () => {
+    const component = create(<Banner />)
 
-    const tree = component.toJSON();
+    const tree = component.toJSON()
 
-    expect(tree).toMatchSnapshot();
-  });
-});
+    expect(tree).toMatchSnapshot()
+  })
+})

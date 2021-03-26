@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Banner Should match snapshot 1`] = `
+exports[`Banner Should match snapshot (it renders correctly) 1`] = `
 <aside
   aria-label="Speak Out"
   role="doc-tip"
