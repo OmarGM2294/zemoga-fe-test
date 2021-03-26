@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero Should match snapshot (it renders correctly) 1`] = `
+<header>
+  <div>
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "left": 0,
+          "margin": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <img
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "visibility": "hidden",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </div>
+  <div>
+    <div>
+      <div>
+        <span>
+          What’s your opinion on
+        </span>
+        <h1>
+          Pope Francis?
+        </h1>
+        <p>
+          He’s talking tough on clergy sexual abuse, or is he just another pervert protector? (thumbs down) or a true pedophile punishing pontiff? (thumbs up)
+        </p>
+        <div>
+          <a
+            href="http://wikipedia.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "left": 0,
+                    "margin": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <img
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "visibility": "hidden",
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+            More information
+          </a>
+        </div>
+        <p>
+          What’s Your Veredict?
+        </p>
+      </div>
+      <div>
+        <button>
+          <div>
+            <div
+              style={
+                Object {
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "left": 0,
+                  "margin": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <img
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "visibility": "hidden",
+                    "width": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </button>
+        <button>
+          <div>
+            <div
+              style={
+                Object {
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "left": 0,
+                  "margin": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <img
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "visibility": "hidden",
+                    "width": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <span>
+        closing in
+      </span>
+    </div>
+    <div>
+      <span>
+        22
+      </span>
+      <span>
+        days
+      </span>
+    </div>
+  </div>
+</header>
+`;
