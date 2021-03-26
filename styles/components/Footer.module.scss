@@ -1,0 +1,79 @@
+@import '../common/colors.scss';
+@import '../common/breakpoints.scss';
+
+.footer {
+  align-items: flex-end;
+  border-top: 2px dashed $color-black;
+  display: flex;
+  justify-content: space-between;
+  max-width: $screen-lg-min;
+  margin: 0 12px;
+  padding: 17px 0 34px;
+  z-index: 0;
+
+  @include sm {
+    margin: 0 21px;
+    padding: 36px 0 45px;
+  }
+
+  @include lg {
+    align-self: center;
+    width: 100%;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @include sm {
+      display: flex;
+    }
+  }
+
+  li {
+    color: $color-dark-grey;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+.links {
+  li {
+    padding: 0.5em 0;
+
+    @include sm {
+      margin-right: 28px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.social {
+  @include sm {
+    display: flex;
+  }
+
+  ul {
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+
+    @include sm {
+      margin: 0;
+    }
+  }
+
+  li {
+    height: 24px;
+    position: relative;
+    width: 24px;
+
+    @include sm {
+      margin-left: 14px;
+    }
+  }
+}
