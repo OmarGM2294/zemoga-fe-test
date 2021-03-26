@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner Should match snapshot 1`] = `
+<aside
+  aria-label="Speak Out"
+  role="doc-tip"
+>
+  <div>
+    <span>
+      Speak out. Be heard.
+    </span>
+    <span>
+      Be counted
+    </span>
+  </div>
+  <div>
+    <p>
+      Rule of Thumb is a crowd sourced court of public opinion where anyone and everyone can speak out and speak freely. It’s easy: You share your opinion, we analyze and put the data in a public report.
+    </p>
+  </div>
+  <button
+    aria-label="close"
+  >
+    <div
+      style={
+        Object {
+          "bottom": 0,
+          "boxSizing": "border-box",
+          "display": "block",
+          "left": 0,
+          "margin": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    >
+      <img
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style={
+          Object {
+            "border": "none",
+            "bottom": 0,
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": 0,
+            "left": 0,
+            "margin": "auto",
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minHeight": "100%",
+            "minWidth": "100%",
+            "objectFit": undefined,
+            "objectPosition": undefined,
+            "padding": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+            "visibility": "hidden",
+            "width": 0,
+          }
+        }
+      />
+    </div>
+  </button>
+</aside>
+`;

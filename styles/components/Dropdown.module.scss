@@ -2,17 +2,16 @@
 
 .dropdown {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 
 .content {
   background-color: $color-white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   color: $color-black;
   list-style: none;
   min-width: 160px;
   position: absolute;
-  right: 0;
   z-index: 1;
 }
 
