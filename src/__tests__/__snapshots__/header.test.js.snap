@@ -27,6 +27,7 @@ exports[`Header Should match snapshot 1`] = `
             }
           >
             <img
+              alt="Menu"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
@@ -86,7 +87,7 @@ exports[`Header Should match snapshot 1`] = `
           action="#"
         >
           <button
-            alt="Search"
+            aria-label="Search"
             onClick={[Function]}
             type="submit"
           >
@@ -106,6 +107,7 @@ exports[`Header Should match snapshot 1`] = `
               }
             >
               <img
+                alt="Search"
                 decoding="async"
                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                 style={

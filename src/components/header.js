@@ -15,7 +15,7 @@ const Header = () => {
         <Dropdown
           event={
             <button className={styles.menu}>
-              <Image src="/images/hamburger.svg" layout="fill" />
+              <Image alt="Menu" src="/images/hamburger.svg" layout="fill" />
             </button>
           }
           customStyle={styles.dropdown}
@@ -55,13 +55,13 @@ const Header = () => {
               ) : null}
               <button
                 className={styles.search}
-                alt="Search"
+                aria-label="Search"
                 onClick={() =>
                   !show ? setShow(true) : searchText ? null : setShow(false)
                 }
-                type="submit"
+                type={show && searchText !== '' ? "submit" : "button"}
               >
-                <Image src="/images/search.svg" layout="fill" />
+                <Image src="/images/search.svg" alt="Search" layout="fill" />
               </button>
             </form>
           </li>

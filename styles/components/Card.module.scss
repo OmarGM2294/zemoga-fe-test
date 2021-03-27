@@ -34,6 +34,7 @@
 
       .right {
         align-self: flex-end;
+        min-width: 207px;
       }
     }
 
@@ -79,12 +80,15 @@
 
       button {
         border: 0;
+        cursor: pointer;
         padding: 7px;
 
         &:focus,
         &:hover,
-        &:active {
+        &:active,
+        &.active {
           border: 2px solid $color-white;
+          outline: 0;
         }
 
         &:first-child {

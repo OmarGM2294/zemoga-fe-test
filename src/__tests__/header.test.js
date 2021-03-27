@@ -16,7 +16,7 @@ describe('Header', () => {
 
   it('Should show the search bar on click', () => {
     const component = shallow(<Header />)
-    component.find('button[alt="Search"]').simulate('click')
+    component.find('button[aria-label="Search"]').simulate('click')
     expect(component.find('input').length).toEqual(1)
   })
 
@@ -28,8 +28,8 @@ describe('Header', () => {
 
   it('Should hide the search bar on click', () => {
     const component = shallow(<Header />)
-    component.find('button[alt="Search"]').simulate('click')
-    component.find('button[alt="Search"]').simulate('click')
+    component.find('button[aria-label="Search"]').simulate('click')
+    component.find('button[aria-label="Search"]').simulate('click')
 
     expect(component.find('input').length).toEqual(0)
   })

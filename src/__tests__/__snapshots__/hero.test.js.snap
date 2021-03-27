@@ -3,51 +3,6 @@
 exports[`Hero Should match snapshot (it renders correctly) 1`] = `
 <header>
   <div>
-    <div
-      style={
-        Object {
-          "bottom": 0,
-          "boxSizing": "border-box",
-          "display": "block",
-          "left": 0,
-          "margin": 0,
-          "overflow": "hidden",
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        }
-      }
-    >
-      <img
-        decoding="async"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-        style={
-          Object {
-            "border": "none",
-            "bottom": 0,
-            "boxSizing": "border-box",
-            "display": "block",
-            "height": 0,
-            "left": 0,
-            "margin": "auto",
-            "maxHeight": "100%",
-            "maxWidth": "100%",
-            "minHeight": "100%",
-            "minWidth": "100%",
-            "objectFit": undefined,
-            "objectPosition": undefined,
-            "padding": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-            "visibility": "hidden",
-            "width": 0,
-          }
-        }
-      />
-    </div>
-  </div>
-  <div>
     <div>
       <div>
         <span>
@@ -82,6 +37,7 @@ exports[`Hero Should match snapshot (it renders correctly) 1`] = `
                 }
               >
                 <img
+                  alt="Wikipedia"
                   decoding="async"
                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                   style={
@@ -118,7 +74,9 @@ exports[`Hero Should match snapshot (it renders correctly) 1`] = `
         </p>
       </div>
       <div>
-        <button>
+        <button
+          aria-label="Vote positive"
+        >
           <div>
             <div
               style={
@@ -136,6 +94,7 @@ exports[`Hero Should match snapshot (it renders correctly) 1`] = `
               }
             >
               <img
+                alt="Vote positive"
                 decoding="async"
                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                 style={
@@ -165,7 +124,9 @@ exports[`Hero Should match snapshot (it renders correctly) 1`] = `
             </div>
           </div>
         </button>
-        <button>
+        <button
+          aria-label="Vote negative"
+        >
           <div>
             <div
               style={
@@ -183,6 +144,7 @@ exports[`Hero Should match snapshot (it renders correctly) 1`] = `
               }
             >
               <img
+                alt="Vote negative"
                 decoding="async"
                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                 style={
