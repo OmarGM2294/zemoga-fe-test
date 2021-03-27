@@ -32,10 +32,10 @@ const Cards = (props) => {
         >
           <ul>
             <li onClick={() => setSelected('List')}>
-              <a>List</a>
+              <a href="#">List</a>
             </li>
             <li onClick={() => setSelected('Grid')}>
-              <a>Grid</a>
+              <a href="#">Grid</a>
             </li>
           </ul>
         </Dropdown>

@@ -2,6 +2,8 @@
 @import '../common/breakpoints.scss';
 
 .cards {
+  margin-top: 24px;
+
   .header {
     align-items: center;
     display: flex;
@@ -25,6 +27,7 @@
       background-color: transparent;
       border: 2px solid $color-dark-grey;
       border-radius: 0;
+      cursor: pointer;
       display: none;
       padding: 8px;
       width: 130px;
@@ -61,8 +64,8 @@
     }
 
     .dropdown {
-      right: 0;
       min-width: 130px;
+      right: 0;
 
       @include lg {
         min-width: 173px;

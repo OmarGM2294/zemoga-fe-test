@@ -28,7 +28,9 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
           </span>
         </p>
         <div>
-          <button>
+          <button
+            aria-label="Vote positive"
+          >
             <div>
               <div
                 style={
@@ -46,6 +48,7 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
                 }
               >
                 <img
+                  alt="Vote positive"
                   decoding="async"
                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                   style={
@@ -75,7 +78,9 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
               </div>
             </div>
           </button>
-          <button>
+          <button
+            aria-label="Vote negative"
+          >
             <div>
               <div
                 style={
@@ -93,6 +98,7 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
                 }
               >
                 <img
+                  alt="Vote negative"
                   decoding="async"
                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                   style={
@@ -122,7 +128,9 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
               </div>
             </div>
           </button>
-          <button>
+          <button
+            aria-label="Vote now"
+          >
             Vote Now
           </button>
         </div>
@@ -154,6 +162,7 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
               }
             >
               <img
+                alt="Vote positive"
                 decoding="async"
                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                 style={
@@ -212,6 +221,7 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
               }
             >
               <img
+                alt="Vote negative"
                 decoding="async"
                 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                 style={
@@ -267,6 +277,7 @@ exports[`Card Should match snapshot (it renders correctly) 1`] = `
             }
           >
             <img
+              alt="Most negative votes"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={

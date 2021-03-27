@@ -37,6 +37,7 @@ exports[`Banner Should match snapshot (it renders correctly) 1`] = `
       }
     >
       <img
+        alt="Close"
         decoding="async"
         src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
         style={

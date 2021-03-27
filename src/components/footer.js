@@ -22,13 +22,13 @@ const Footer = () => (
       <span>Follow us</span>
       <ul>
         <li>
-          <a href="#">
-            <Image layout="fill" src="/images/facebook.svg" />
+          <a href="https://facebook.com">
+            <Image alt="Facebook" layout="fill" src="/images/facebook.svg" />
           </a>
         </li>
         <li>
-          <a href="#">
-            <Image layout="fill" src="/images/twitter.svg" />
+          <a href="https://twitter.com">
+            <Image alt="Twitter" layout="fill" src="/images/twitter.svg" />
           </a>
         </li>
       </ul>

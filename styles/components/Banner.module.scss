@@ -10,7 +10,7 @@
   font-size: 15px;
   justify-content: space-between;
   line-height: 18px;
-  margin: 24px 0;
+  margin-top: 24px;
   padding: 12px;
   position: relative;
 
@@ -24,60 +24,61 @@
     font-size: 18px;
     line-height: 22px;
   }
-}
 
-.left {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 40%;
-
-  @include md {
-    flex-basis: 20%;
-  }
-}
-
-.title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-
-  @include md {
-    font-size: 21px;
-    line-height: 25px;
-  }
-
-  @include lg {
-    font-size: 27px;
-    line-height: 32px;
-  }
-}
-
-.right {
-  flex-basis: 60%;
-
-  @include md {
-    flex-basis: 80%;
-  }
-
-  p {
-    margin: 0;
+  .left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
 
     @include md {
-      font-size: 18px;
-      line-height: 22px;
+      flex-basis: 20%;
     }
   }
-}
 
-.button {
-  background-color: transparent;
-  border: 0;
-  display: none;
-  height: 18px;
-  position: relative;
-  width: 18px;
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
 
-  @include lg {
-    display: block;
+    @include md {
+      font-size: 21px;
+      line-height: 25px;
+    }
+
+    @include lg {
+      font-size: 27px;
+      line-height: 32px;
+    }
+  }
+
+  .right {
+    flex-basis: 60%;
+
+    @include md {
+      flex-basis: 80%;
+    }
+
+    p {
+      margin: 0;
+
+      @include md {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: none;
+    height: 18px;
+    position: relative;
+    width: 18px;
+
+    @include lg {
+      display: block;
+    }
   }
 }

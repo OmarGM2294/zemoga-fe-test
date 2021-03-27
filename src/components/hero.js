@@ -7,13 +7,6 @@ import heroStyles from '../../styles/views/Home.module.scss'
 const Hero = () => {
   return (
     <header className={styles.hero}>
-      <div className={styles.background}>
-        <Image
-          layout="fill"
-          src="/images/pope-francis.@2x.png"
-          className={styles.image}
-        />
-      </div>
       <div className={heroStyles.container}>
         <div className={styles.card}>
           <div className={styles.cardContent}>
@@ -31,7 +24,11 @@ const Hero = () => {
                 rel="noopener noreferrer"
               >
                 <div>
-                  <Image src="/images/wikipedia.svg" layout="fill" />
+                  <Image
+                    alt="Wikipedia"
+                    src="/images/wikipedia.svg"
+                    layout="fill"
+                  />
                 </div>
                 More information
               </a>
@@ -39,14 +36,22 @@ const Hero = () => {
             <p className={styles.cardCTA}>What’s Your Veredict?</p>
           </div>
           <div className={styles.cardActions}>
-            <button>
+            <button aria-label="Vote positive">
               <div>
-                <Image src="/images/thumbs-up.svg" layout="fill" />
+                <Image
+                  alt="Vote positive"
+                  src="/images/thumbs-up.svg"
+                  layout="fill"
+                />
               </div>
             </button>
-            <button>
+            <button aria-label="Vote negative">
               <div>
-                <Image src="/images/thumbs-down.svg" layout="fill" />
+                <Image
+                  alt="Vote negative"
+                  src="/images/thumbs-down.svg"
+                  layout="fill"
+                />
               </div>
             </button>
           </div>

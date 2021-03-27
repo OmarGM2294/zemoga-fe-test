@@ -34,7 +34,7 @@ exports[`Footer Should match snapshot 1`] = `
     <ul>
       <li>
         <a
-          href="#"
+          href="https://facebook.com"
         >
           <div
             style={
@@ -52,6 +52,7 @@ exports[`Footer Should match snapshot 1`] = `
             }
           >
             <img
+              alt="Facebook"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={
@@ -83,7 +84,7 @@ exports[`Footer Should match snapshot 1`] = `
       </li>
       <li>
         <a
-          href="#"
+          href="https://twitter.com"
         >
           <div
             style={
@@ -101,6 +102,7 @@ exports[`Footer Should match snapshot 1`] = `
             }
           >
             <img
+              alt="Twitter"
               decoding="async"
               src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
               style={

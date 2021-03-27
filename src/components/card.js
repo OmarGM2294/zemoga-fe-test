@@ -13,6 +13,8 @@ const Card = (props) => {
     width: undefined,
     height: undefined,
   })
+  const [selected, setSelected] = React.useState('')
+  const [show, setShow] = React.useState(false)
 
   const timeSince = (last) => {
     const date = new Date(last)
@@ -66,6 +68,15 @@ const Card = (props) => {
     }
   }
 
+  const changeSelection = () => {
+    if (selected !== '') {
+      setShow(true)
+      setSelected('')
+    } else {
+      setShow(false)
+    }
+  }
+
   React.useEffect(() => {
     if (typeof window !== 'undefined') {
       handleResize()
@@ -88,20 +99,48 @@ const Card = (props) => {
           </div>
           <div className={styles.right}>
             <p className={styles.last}>
-              {timeSince(data.lastUpdated)} ago in <span>{data.category}</span>
+              { show ?
+                'Thank you for your vote!'
+              :
+                <>
+                  {timeSince(data.lastUpdated)} ago in <span>{data.category}</span>
+                </>
+              }
             </p>
             <div className={styles.buttons}>
-              <button>
-                <div className={styles.thumbs}>
-                  <Image src="/images/thumbs-up.svg" layout="fill" />
-                </div>
+              { !show ?
+                <>
+                  <button
+                    aria-label="Vote positive"
+                    className={selected === 'positive' ? styles.active : null}
+                    onClick={() => setSelected('positive')}>
+                    <div className={styles.thumbs}>
+                      <Image
+                        alt="Vote positive"
+                        src="/images/thumbs-up.svg"
+                        layout="fill"
+                      />
+                    </div>
+                  </button>
+                  <button
+                    aria-label="Vote negative"
+                    className={selected === 'negative' ? styles.active : null}
+                    onClick={() => setSelected('negative')}>
+                    <div className={styles.thumbs}>
+                      <Image
+                        alt="Vote negative"
+                        src="/images/thumbs-down.svg"
+                        layout="fill"
+                      />
+                    </div>
+                  </button>
+                </>
+              : null }
+              <button
+                aria-label="Vote now"
+                onClick={changeSelection}>
+                { show ? 'Vote again' : 'Vote Now' }
               </button>
-              <button>
-                <div className={styles.thumbs}>
-                  <Image src="/images/thumbs-down.svg" layout="fill" />
-                </div>
-              </button>
-              <button>Vote Now</button>
             </div>
           </div>
         </div>
@@ -112,7 +151,11 @@ const Card = (props) => {
           >
             <div className={styles.floating}>
               <div className={styles.thumbs}>
-                <Image src="/images/thumbs-up.svg" layout="fill" />
+                <Image
+                  alt="Vote positive"
+                  src="/images/thumbs-up.svg"
+                  layout="fill"
+                />
               </div>
               <span>{calcVotes(votes.positive)}</span>
             </div>
@@ -123,7 +166,11 @@ const Card = (props) => {
           >
             <div className={styles.floating}>
               <div className={styles.thumbs}>
-                <Image src="/images/thumbs-down.svg" layout="fill" />
+                <Image
+                  alt="Vote negative"
+                  src="/images/thumbs-down.svg"
+                  layout="fill"
+                />
               </div>
               <span>{calcVotes(votes.negative)}</span>
             </div>
@@ -137,6 +184,9 @@ const Card = (props) => {
           <div className={styles.floating}>
             <div className={styles.thumbs}>
               <Image
+                alt={`Most ${
+                  votes.positive > votes.negative ? 'positive' : 'negative'
+                } votes`}
                 src={`/images/thumbs-${
                   votes.positive > votes.negative ? 'up' : 'down'
                 }.svg`}
