@@ -1,0 +1,623 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards Should match snapshot (it renders correctly) 1`] = `
+<main>
+  <div>
+    <h2>
+      Previous Rulings
+    </h2>
+    <div>
+      <div
+        onClick={[Function]}
+      >
+        <button>
+          <span>
+            List
+          </span>
+          <div />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="undefined undefined"
+  >
+    <div
+      className="undefined undefined"
+      style={
+        Object {
+          "backgroundImage": "url('/images/cards/kanye@2x.png')",
+        }
+      }
+    >
+      <div>
+        <div>
+          <div>
+            <h3>
+              Kanye West
+            </h3>
+            <p>
+              Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.
+            </p>
+          </div>
+          <div>
+            <p>
+              1 year
+               ago in 
+              <span>
+                entertainment
+              </span>
+            </p>
+            <div>
+              <button>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "left": 0,
+                        "margin": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <img
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "visibility": "hidden",
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </button>
+              <button>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "left": 0,
+                        "margin": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <img
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "visibility": "hidden",
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </button>
+              <button>
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            style={
+              Object {
+                "flexBasis": "38.98%",
+              }
+            }
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "left": 0,
+                      "margin": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <img
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "visibility": "hidden",
+                        "width": 0,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <span>
+                38.98%
+              </span>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "flexBasis": "61.02%",
+              }
+            }
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "left": 0,
+                      "margin": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <img
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "visibility": "hidden",
+                        "width": 0,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <span>
+                61.02%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "left": 0,
+                    "margin": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <img
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "visibility": "hidden",
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="undefined undefined"
+      style={
+        Object {
+          "backgroundImage": "url('/images/cards/mark@2x.png')",
+        }
+      }
+    >
+      <div>
+        <div>
+          <div>
+            <h3>
+              Mark Zuckerberg
+            </h3>
+            <p>
+              Born in White Plains, New York, Zuckerberg attended Harvard University, where he launched the Facebook social networking service from his dormitory room on February 4, 2004.
+            </p>
+          </div>
+          <div>
+            <p>
+              1 month
+               ago in 
+              <span>
+                business
+              </span>
+            </p>
+            <div>
+              <button>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "left": 0,
+                        "margin": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <img
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "visibility": "hidden",
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </button>
+              <button>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "left": 0,
+                        "margin": 0,
+                        "overflow": "hidden",
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <img
+                      decoding="async"
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                      style={
+                        Object {
+                          "border": "none",
+                          "bottom": 0,
+                          "boxSizing": "border-box",
+                          "display": "block",
+                          "height": 0,
+                          "left": 0,
+                          "margin": "auto",
+                          "maxHeight": "100%",
+                          "maxWidth": "100%",
+                          "minHeight": "100%",
+                          "minWidth": "100%",
+                          "objectFit": undefined,
+                          "objectPosition": undefined,
+                          "padding": 0,
+                          "position": "absolute",
+                          "right": 0,
+                          "top": 0,
+                          "visibility": "hidden",
+                          "width": 0,
+                        }
+                      }
+                    />
+                  </div>
+                </div>
+              </button>
+              <button>
+                Vote Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            style={
+              Object {
+                "flexBasis": "56.33%",
+              }
+            }
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "left": 0,
+                      "margin": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <img
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "visibility": "hidden",
+                        "width": 0,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <span>
+                56.33%
+              </span>
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "flexBasis": "43.67%",
+              }
+            }
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "left": 0,
+                      "margin": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <img
+                    decoding="async"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                    style={
+                      Object {
+                        "border": "none",
+                        "bottom": 0,
+                        "boxSizing": "border-box",
+                        "display": "block",
+                        "height": 0,
+                        "left": 0,
+                        "margin": "auto",
+                        "maxHeight": "100%",
+                        "maxWidth": "100%",
+                        "minHeight": "100%",
+                        "minWidth": "100%",
+                        "objectFit": undefined,
+                        "objectPosition": undefined,
+                        "padding": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                        "visibility": "hidden",
+                        "width": 0,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <span>
+                43.67%
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <div>
+              <div
+                style={
+                  Object {
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "left": 0,
+                    "margin": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <img
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "visibility": "hidden",
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
