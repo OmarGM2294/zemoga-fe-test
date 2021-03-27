@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Should match snapshot (it renders correctly) 1`] = `
+<div
+  className="undefined undefined"
+  style={
+    Object {
+      "backgroundImage": "url('/images/cards/kanye@2x.png')",
+    }
+  }
+>
+  <div>
+    <div>
+      <div>
+        <h3>
+          Kanye West
+        </h3>
+        <p>
+          Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.
+        </p>
+      </div>
+      <div>
+        <p>
+          1 year
+           ago in 
+          <span>
+            entertainment
+          </span>
+        </p>
+        <div>
+          <button>
+            <div>
+              <div
+                style={
+                  Object {
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "left": 0,
+                    "margin": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <img
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "visibility": "hidden",
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </button>
+          <button>
+            <div>
+              <div
+                style={
+                  Object {
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "left": 0,
+                    "margin": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <img
+                  decoding="async"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "visibility": "hidden",
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </button>
+          <button>
+            Vote Now
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        style={
+          Object {
+            "flexBasis": "38.98%",
+          }
+        }
+      >
+        <div>
+          <div>
+            <div
+              style={
+                Object {
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "left": 0,
+                  "margin": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <img
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "visibility": "hidden",
+                    "width": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+          <span>
+            38.98%
+          </span>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "flexBasis": "61.02%",
+          }
+        }
+      >
+        <div>
+          <div>
+            <div
+              style={
+                Object {
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "left": 0,
+                  "margin": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            >
+              <img
+                decoding="async"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                style={
+                  Object {
+                    "border": "none",
+                    "bottom": 0,
+                    "boxSizing": "border-box",
+                    "display": "block",
+                    "height": 0,
+                    "left": 0,
+                    "margin": "auto",
+                    "maxHeight": "100%",
+                    "maxWidth": "100%",
+                    "minHeight": "100%",
+                    "minWidth": "100%",
+                    "objectFit": undefined,
+                    "objectPosition": undefined,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "visibility": "hidden",
+                    "width": 0,
+                  }
+                }
+              />
+            </div>
+          </div>
+          <span>
+            61.02%
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div>
+        <div>
+          <div
+            style={
+              Object {
+                "bottom": 0,
+                "boxSizing": "border-box",
+                "display": "block",
+                "left": 0,
+                "margin": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          >
+            <img
+              decoding="async"
+              src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+              style={
+                Object {
+                  "border": "none",
+                  "bottom": 0,
+                  "boxSizing": "border-box",
+                  "display": "block",
+                  "height": 0,
+                  "left": 0,
+                  "margin": "auto",
+                  "maxHeight": "100%",
+                  "maxWidth": "100%",
+                  "minHeight": "100%",
+                  "minWidth": "100%",
+                  "objectFit": undefined,
+                  "objectPosition": undefined,
+                  "padding": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                  "visibility": "hidden",
+                  "width": 0,
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
